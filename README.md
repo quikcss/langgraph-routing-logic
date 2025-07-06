@@ -73,8 +73,10 @@ GROQ_API_KEY=your_groq_api_key_here
 ## 🧠 How It Works
 
 This project uses LangGraph to route input requests based on what the user says. It uses a simple validator that decides whether the user wants:
+```
 1.📖 A story
 2.😂 A joke
+```
 Each type of request gets routed to its own node, and all flows lead to the END node – creating a clean, testable AI pipeline.
 
 ---
@@ -87,6 +89,7 @@ langchain
 langchain-groq
 grandalf
 python-dotenv
+langgraph-cli
 ```
 
 ---
